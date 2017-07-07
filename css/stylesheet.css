@@ -178,6 +178,12 @@ hr.small {
     margin-bottom: 30px;
 }
 
+/* Carousel */
+.carousel-inner img{
+    width: 60%;
+    margin: auto;
+}
+
 /* Callout */
 
 .callout {

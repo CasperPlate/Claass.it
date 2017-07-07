@@ -44,7 +44,7 @@
                 <a href="#top" onclick=$("#menu-close").click();>Home</a>
             </li>
             <li>
-                <a href="#butlerCarousel" onclick=$("#menu-close").click();>Wat wij u bieden</a>
+                <a href="#claassCarousel" onclick=$("#menu-close").click();>Wat wij u bieden</a>
             </li>
             <li>
                 <a href="#services" onclick=$("#menu-close").click();>Meer informatie</a>
@@ -61,56 +61,39 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1>Claass.it</h1>
-            <h3>Beheer(s)t uw cloud, verrijk(t) uw kennis, versterk(t) uw team</h3>
+            <h1 style="font-size: 100px;">Claass.it</h1>
+            <h3 style="font-size: 40px;">Beheer(s)t uw cloud, verrijk(t) uw kennis, versterk(t) uw team</h3>
             <br>
             <a href="#services" class="btn btn-dark btn-lg">Meer informatie</a>
         </div>
     </header>
 
-    <!-- Butler -->
+    <!-- Carousel -->
     <div class="container">
-        <div class="row">
-            <div class="col-sm-5 col-md-5 vcenter">
-                <img alt="butler" src="img/butler.jpg" class="img-responsive">
-            </div>
-            <div class="col-sm-5 col-md-5 vcenter">
-                <div class="carousel slide">
-                    <div id="butlerCarousel" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#butlerCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#butlerCarousel" data-slide-to="1"></li>
-                            <li data-target="#butlerCarousel" data-slide-to="2"></li>
-                        </ol>
-
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img class="img-responsive" src="img/Logo_Cloudbeheerder.png" alt="Cloudbeheerder.it">
-                            </div>
-
-                            <div class="item">
-                                <img class="img-responsive" src="img/Logo_Cloudopleider.png" alt="Cloudopleider.it">
-                            </div>
-
-                            <div class="item">
-                                <img class="img-responsive" src="img/Logo_Cloudrecruiter.png" alt="Cloudrecruiter.it">
-                            </div>
-                        </div>
-
-                        <!-- Left and right controls -->
-                        <a class="left carousel-control" href="#butlerCarousel" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-left" area-hidden="true"></span>
-                            <span class="sr-only">Volgende</span>
-                        </a>
-                        <a class="right carousel-control" href="#butlerCarousel" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-right" area-hidden="true"></span>
-                            <span class="sr-only">Vorige</span>
-                        </a>
-                    </div>
+        <div id="claassCarousel" class="carousel slide" data-ride="carousel">
+            
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img class="img-responsive" src="img/Logo_Cloudbeheerder.png" alt="Cloudbeheerder.it">
+                </div>
+                <div class="item">
+                    <img class="img-responsive" src="img/Logo_Cloudopleider.png" alt="Cloudopleider.it">
+                </div>
+                <div class="item">
+                    <img class="img-responsive" src="img/Logo_Cloudrecruiter.png" alt="Cloudrecruiter.it">
                 </div>
             </div>
+            
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#claassCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" area-hidden="true"></span>
+                <span class="sr-only">Vorige</span>
+            </a>
+            <a class="right carousel-control" href="#claassCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" area-hidden="true"></span>
+                <span class="sr-only">Volgende</span>
+            </a>
         </div>
     </div>
 
@@ -127,39 +110,39 @@
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                                <i class="fa fa-cloud fa-stack-1x text-primary" style="color: #a437aa"></i>
                             </span>
                                 <h4>
                                     <strong>Cloudbeheerder.it</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="http://www.cloudbeheerder.it/" class="btn btn-light">Meer informatie</a>
+                                <a href="http://www.cloudbeheerder.it/" class="btn btn-light" style="background-color: #a437aa; color: white">Meer informatie</a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                                <i class="fa fa-compass fa-stack-1x text-primary" style="color: #07a98a"></i>
                             </span>
                                 <h4>
                                     <strong>Cloudrecruiter.it</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="http://www.cloudrecruiter.it/" class="btn btn-light">Meer informatie</a>
+                                <a href="http://www.cloudrecruiter.it/" class="btn btn-light" style="background-color: #07a98a; color: white">Meer informatie</a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                                <i class="fa fa-flask fa-stack-1x text-primary" style="color: #E7803C"></i>
                             </span>
                                 <h4>
                                     <strong>Cloudopleider.it</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="http://www.cloudopleider.it/" class="btn btn-light">Meer informatie</a>
+                                <a href="http://www.cloudopleider.it/" class="btn btn-light" style="background-color: #E7803C; color: white">Meer informatie</a>
                             </div>
                         </div>
                     </div>
