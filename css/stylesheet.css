@@ -14,6 +14,7 @@ body {
 
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #293133
 }
 
 .text-vertical-center {
@@ -168,10 +169,20 @@ hr.small {
     padding: 50px 0;
 }
 
+/* carousel */
+
+.carousel,.item,.active {
+    height:100%;
+}
+.carousel-inner {
+    height:100%;
+}
+
 /* Services */
 
 .services {
     padding: 50px 0;
+    color: #fff;
 }
 
 .service-item {
@@ -202,6 +213,7 @@ hr.small {
 
 .portfolio {
     padding: 50px 0;
+    color: #fff;
 }
 
 .portfolio-item {
@@ -216,36 +228,19 @@ hr.small {
     opacity: 0.8;
 }
 
-/* Call to Action */
+/* Map */
 
-.call-to-action {
-    padding: 50px 0;
-}
-
-.call-to-action .btn {
-    margin: 10px;
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
-
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
-}
-
-.map iframe {
-    pointer-events: none;
+#map {
+    height: 400px;
+    width: 80%;
+    margin: auto;
 }
 
 /* Footer */
 
 footer {
     padding: 100px 0;
+    color: #fff;
 }
 
 #to-top {
