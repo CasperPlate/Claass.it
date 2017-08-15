@@ -14,7 +14,6 @@ body {
 
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #293133
 }
 
 .text-vertical-center {
@@ -156,11 +155,30 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background: url(../img/bg1.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    text-align: center;
+    font-weight: 1200;
+}
+
+.slogan {
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding-top 15px;
+    padding-bottom: 15px;
+    
+    background: rgba(41,49,51,1);
+    background: -moz-linear-gradient(-45deg, rgba(41,49,51,1) 0%, rgba(41,49,51,1) 24%, rgba(214,211,214,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(41,49,51,1)), color-stop(24%, rgba(41,49,51,1)), color-stop(100%, rgba(214,211,214,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(41,49,51,1) 0%, rgba(41,49,51,1) 24%, rgba(214,211,214,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(41,49,51,1) 0%, rgba(41,49,51,1) 24%, rgba(214,211,214,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(41,49,51,1) 0%, rgba(41,49,51,1) 24%, rgba(214,211,214,1) 100%);
+    background: linear-gradient(135deg, rgba(41,49,51,1) 0%, rgba(41,49,51,1) 24%, rgba(214,211,214,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#293133', endColorstr='#d6d3d6', GradientType=1 );
 }
 
 /* About */
@@ -169,20 +187,40 @@ hr.small {
     padding: 50px 0;
 }
 
-/* carousel */
+/* Styling */
 
-.carousel,.item,.active {
-    height:100%;
+.shadow {
+    box-shadow: 10px 10px 5px grey;
 }
-.carousel-inner {
-    height:100%;
+
+.kader {
+    border: 2px solid #293133;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.beheerder {
+    color: #a437aa;
+}
+
+.recruiter {
+    color: #07a98a;
+}
+
+.opleider {
+    color: #E7803C;
 }
 
 /* Services */
 
 .services {
     padding: 50px 0;
-    color: #fff;
+}
+
+
+.item-container {
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 .service-item {
@@ -195,25 +233,21 @@ hr.small {
     margin: auto;
 }
 
-/* Callout */
+/* Example */
 
-.callout {
-    display: table;
-    width: 100%;
-    height: 400px;
-    color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+#example {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #293133;
 }
 
 /* Portfolio */
 
 .portfolio {
     padding: 50px 0;
-    color: #fff;
+    color: #293133;
 }
 
 .portfolio-item {
@@ -240,7 +274,7 @@ hr.small {
 
 footer {
     padding: 100px 0;
-    color: #fff;
+    color: #293133;
 }
 
 #to-top {
