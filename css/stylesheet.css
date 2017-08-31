@@ -221,6 +221,8 @@ hr.small {
 .item-container {
     margin-left: 4%;
     margin-right: 4%;
+    margin-bottom: 20px;
+    min-height: 555px;
 }
 
 .service-item {
@@ -245,21 +247,9 @@ hr.small {
 
 /* Portfolio */
 
-.portfolio {
+.over-ons {
     padding: 50px 0;
     color: #293133;
-}
-
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.img-portfolio {
-    margin: 0 auto;
-}
-
-.img-portfolio:hover {
-    opacity: 0.8;
 }
 
 /* Map */
@@ -274,6 +264,8 @@ hr.small {
 
 footer {
     padding: 100px 0;
+    margin-left: 20px;
+    margin-right: 20px;
     color: #293133;
 }
 
