@@ -10,6 +10,11 @@ html,
 body {
     width: 100%;
     height: 100%;
+    background: url(../img/bg1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 body {
@@ -155,13 +160,12 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg1.jpg) no-repeat center center scroll;
+    background: url(../img/bg1.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     text-align: center;
-    font-weight: 1200;
 }
 
 .slogan {
@@ -190,59 +194,85 @@ hr.small {
 /* Styling */
 
 .shadow {
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 10px 10px 5px #5c5c5c;
 }
 
 .kader {
     border: 2px solid #293133;
     border-radius: 5px;
-    padding: 10px;
 }
 
 .beheerder {
-    color: #a437aa;
+    background-color: rgba(164, 55, 170, 0.95);
+    text-align: center;
 }
 
 .recruiter {
-    color: #07a98a;
+    background-color: rgba(7, 169, 138, 0.95);
+    text-align: center;
 }
 
 .opleider {
-    color: #E7803C;
+    background-color: rgba(231, 128, 60, 0.95);
+    text-align: center;
 }
 
 /* Services */
 
 .services {
-    padding: 50px 0;
+    font-size: 20px;
 }
 
 
-.item-container {
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-bottom: 20px;
-    min-height: 555px;
+
+.service {
+    float: left;
+    width: 29%;
+    margin: 2%;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.service-item {
-    margin-bottom: 30px;
+.service .logo {
+    max-height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.service p {
+    min-height: 600px;
 }
 
-/* Carousel */
-.carousel-inner img{
-    width: 60%;
-    margin: auto;
+.wrapper {
+    content: "";
+    display: block;
+    clear: both;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper:after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 /* Example */
 
 #example {
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
     color: #293133;
+    font-size: 20px;
+}
+
+.example {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(70, 130, 180, 0.95)
 }
 
 /* Portfolio */
@@ -250,6 +280,10 @@ hr.small {
 .over-ons {
     padding: 50px 0;
     color: #293133;
+}
+
+#contact {
+    background-color: rgba(70, 130, 180, 0.95)
 }
 
 /* Map */
