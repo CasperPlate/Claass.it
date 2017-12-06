@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/infinite-slider.css" rel="stylesheet">
+
+<div class="customer-logos">
+    <div class="slide"><img class="img-responsive" src="img/slider/AOCRaad.png"></div>
+    <div class="slide"><img class="img-responsive" src="img/slider/Bandid.png"></div>
+    <div class="slide"><img class="img-responsive" src="img/slider/BBC.png"></div>
+    <div class="slide"><img class="img-responsive" src="img/slider/Comminz.png"></div>
+    <div class="slide"><img class="img-responsive" src="img/slider/De%20Roek.png"></div>
+    <div class="slide"><img class="img-responsive" src="img/slider/het-betere-verhaal-logo.png"></div>
+    <div class="slide"><img class="img-responsive" src="img/slider/Hugo%20de%20Vries.png"></div>
+    <div class="slide"><img class="img-responsive" src="img/slider/Huis%20en%20Zon.png"></div>
+    <div class="slide"><img class="img-responsive" src="img/slider/LeerstofNet_LV_logo.png"></div>
+    <div class="slide"><img class="img-responsive" src="img/slider/Manel.png"></div>
+    <div class="slide"><img class="img-responsive" src="img/slider/Prins%20Vleermuis.png"></div>
+    <div class="slide"><img class="img-responsive" src="img/slider/Studio%2012.png"></div>
+    <div class="slide"><img class="img-responsive" src="img/slider/Van%20Ewijk.png"></div>
+    <div class="slide"><img class="img-responsive" src="img/slider/Verbouwcenter%20Ede.png"></div>
+    <div class="slide"><img class="img-responsive" src="img/slider/VTE.png"></div>
+</div>
+				
+<script type="text/javascript">
+
+    $(document).ready(function(){
+			$('.customer-logos').slick({
+				slidesToShow: 4,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 1000,
+				arrows: false,
+				dots: false,
+				pauseOnHover: false,
+				responsive: [{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 3
+					}
+				}, {
+					breakpoint: 520,
+					settings: {
+						slidesToShow: 2
+					}
+				}]
+			});
+		});
+    
+</script>
+</html>
